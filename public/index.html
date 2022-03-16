@@ -10,7 +10,7 @@
 <body>
     <header>Don't allow sorrow for one more minute of your worthless life!</header>
     <h1>Happiness For Sale</h1>
-    <img src="https://c.tenor.com/Ma1aOs1uOMMAAAAM/ron-swanson-parks-and-recreation.gif"/>
+    <img id="ron" src="https://c.tenor.com/Ma1aOs1uOMMAAAAM/ron-swanson-parks-and-recreation.gif"/>
     <h3>You <i>can</i> take it with you...or you can leave it here!</h3>
         <figure>
             <blockquote>
@@ -18,6 +18,24 @@
             </blockquote>
             <figcaption>-Ryotan Jones<br><cite>Tibetan Monk Eagle Squad</cite></figcaption>
         </figure>
-    <img src="/images/potions.png"/>
+    <form class="dropdown">Choose your path to Happiness: <br>
+        <label id="drop" for="quickact">Quick Acting</label>
+            <select name="products" id="ddselect">
+                <option value="null"></option>
+                <option value="happy1">Short-lived Joy   $99.99</option>
+                <option value="happy2">Burst of Happy    $149.99</option>
+                <option value="happy3">Overjoyed all day    $199.99</option>
+                <option value="happy4">Happiness Overload    $299.99</option>
+            </select>
+        <label id="drop" for="longlast">Long-Lasting</label>
+            <select name="product" id="ddselect">
+                <option value="null"></option>
+                <option value="joy1">Weekly Refresh    $199.99</option>
+                <option value="joy2">Bi-Weekly Boost    $249.99</option>
+                <option value="joy3">Monthly InJoyction    $399.99</option>
+                <option value="joy4">6-Months of Bliss     $1999.99</option>
+            </select>
+    </form>
+    <img id="potions" src="/images/potions.png"/>
     </body>
 </html>

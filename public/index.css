@@ -1,4 +1,7 @@
 
+body {
+    display: flex;
+}
 header {
     /* display: flex; */
     position: sticky;
@@ -9,4 +12,10 @@ header {
 
 h1 {
     color: blue
+}
+
+#potions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
