@@ -1,6 +1,6 @@
 
 body {
-    display: flexbox;
+    display: flex;
 }
 header {
     /* display: flex; */
@@ -16,7 +16,8 @@ h1 {
 
 #potions {
     display: flex;
-    size: 40%;
+    width: 40%;
+    height: auto;
     justify-content: flex-end;
     align-items: center;
 }
