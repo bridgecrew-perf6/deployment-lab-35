@@ -11,6 +11,7 @@ const displayPotion = (evt) => {
 const testButton = () => {
     // preventDefault()
     axios.get("/testbutton")
+    console.log("trying to access something")
 }
 
 testBut.addEventListener("click", testButton)
