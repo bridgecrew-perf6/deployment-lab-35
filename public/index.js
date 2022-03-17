@@ -1,5 +1,3 @@
-const { append } = require("express/lib/response")
-const Rollbar = require("rollbar")
 
 let quickActing = document.querySelector("#quick")
 let longLasting = document.querySelector("#long")
