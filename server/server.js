@@ -22,15 +22,10 @@ app.use("/images", express.static(path.join(__dirname, "../images")))
 
 const port = process.env.PORT || 4005
 
-app.get('/', (req, res) => {
-    try {
-        console.log("herro")
-        nonExistentFunction(res);
-        // res.sendFile(path.join(__dirname, '/index.html'))
-      } catch (error) {
-        rollbar.log("blank function error")
-        console.error(error);
-}})
+app.get('/testbutton', (req, res) => {
+    rollbar.info("serverjs message")
+    res.status(200).send()
+})
 
 app.listen(port, () => {
     console.log(`Jammin' solid on port ${port}`)
